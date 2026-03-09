@@ -1,0 +1,12 @@
+###
+GET http://localhost:8080/other/query?param=test
+
+###
+GET http://localhost:8080/other/header
+myHeader: test 
+
+###
+POST http://localhost:8080/other/body
+Content-Type: text/plain
+
+test body content
